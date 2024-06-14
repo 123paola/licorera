@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Licorera</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body background="images/inicio3.jpg" width="50">
+  <center>
+    <font color="#B22222" size="40" face="Georgia">Licores Ancar</font><br>
+    <font color="#CD853F" size="10" face="Candara">"Calidad y Servicio" </font>
+    <img src="images/logo2.png" width="200" height="100">
+  </center>
+  <nav class="navegacion">
+    <ul class="menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="cigarrillos.html">Cigarrillos</a></li>
+      <li><a href="importados.html">Importados</a>
+        <ul class="submenu">
+          <li><a href="importados1.html">Cremas</a></li>
+          <li><a href="importados2.html">Tequila</a></li>
+          <li><a href="importados3.html">Whisky</a></li>
+          <li><a href="importados4.html">Ginebra</a></li>
+          <li><a href="importados5.html">Vodka</a></li>
+          <li><a href="importados6.html">Ron</a></li>
+          <li><a href="importados7.html">Cocteleria</a></li>
+          <li><a href="importados8.html">Champagne</a></li>
+          <li><a href="importados9.html">Vinos</a></li>
+          <li><a href="importados10.html">Energizantes</a></li>
+          <li><a href="importados11.html">Cervezas</a></li>
+      </li>
+    </ul>
+    <li><a href="nacionales.html">Nacionales</a>
+      <ul class="submenu">
+        <li><a href="nacionales1.html">Cremas</a></li>
+        <li><a href="nacionales2.html">Whisky</a></li>
+        <li><a href="nacionales3.html">Vodka</a></li>
+        <li><a href="nacionales4.html">Ron</a></li>
+        <li><a href="nacionales5.html">Cocteleria</a></li>
+        <li><a href="nacionales6.html">Champaña</a></li>
+        <li><a href="nacionales7.html">Vinos</a></li>
+        <li><a href="nacionales8.html">Brandy</a></li>
+        <li><a href="nacionales9.html">Aguardiente</a></li>
+        <li><a href="nacionales10.html">Cervezas</a></li>
+    </li> </ul>    
+    <li><a href="contacto.html">Contactenos</a></li>
+   
+  </nav>
+  <center><img src="images/Imagen1.png" width="700" height="200"></center>
+  </header>
+  
+  <div class="container">
+    <div class="columna1">
+      <p style="text-align: justify;">
+        Siempre estaremos disponibles para brindarte un gran servicio.
+        Puedes encontrarnos en nuestra sede ubicada por el Sector del cementerio,
+        al lado de la escuela Antonio Nariño
+        y también puedes contactarnos de forma inmediata.
+        <br> <br>
+        <img src="images/ubicacion.png" width="50" height="50">
+      <p><strong>Dirección:</strong> Calle 49B # 68-18
+        Sector Cementerio, Samaniego, Nariño</p>
+      <img src="images/linea.png" width="50" height="50">
+      <p><strong>Línea de atención celular:</strong> <br>(+57) 312 517 3121</p>
+      <p><strong>Línea de atención telefónica:</strong> <br>(602) 322 3781</p><br>
+    </div>
+    <div class="columna2">
+      <div class="container-contacto">
+        <form action="#" id="form" method="POST">
+          <br>
+          <center>
+            <font color="#000000" , size="3" , face="Arial black">
+              Solicita asesoría de Veterinarios Expertos
+              Déjanos tus datos, nos pondremos en contacto contigo.</font>
+          </center>
+          <input type="text" name="cliente" id="nombre" placeholder="Ingrese su Nombre"
+            onkeypress="return sololetras(event)" onpaste="return false" required>
+          <input type="text" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+          <input type="text" name="celular" id="celular" placeholder="Ingrese su Celular"
+            onkeypress="return solonumeros(event)" onpaste="return false" required>
+          <textarea name="mensaje" placeholder="Escriba su Mensaje" required></textarea>
+          <input type="submit" id="button-contacto" value="ENVIAR" class="button"
+            onclick="validarCorreo(form.correo.value)">
+        </form>
+      </div>
+      <div class="columna2"><br><br>
+        <a href="index.html" class="my-button">Regresar</a>
+      </div>
+      <p>
+        &copy; 2024 Todos los derechos reservados por
+        <a href="index.html">Licores Ancar</a>
+      </p>
+</body>
+
+</html>
